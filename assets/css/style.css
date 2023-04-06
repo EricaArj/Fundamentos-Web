@@ -1,0 +1,78 @@
+/*
+Estilos da página index.html
+*/
+
+
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 2%;
+    
+}
+
+#menu li a {
+    text-decoration:none;
+    color: #0b1416;
+    font-size: 20px;
+
+}
+#menu li a:hover {
+    color: #486358;
+}
+
+.texto_pricipal{
+    padding: 15%;
+
+}
+.img_pricipal{
+    border-radius: 2%;
+}
+
+.tamanho{
+    width: 600px;
+    height: 400px;
+}
+.tm-social{
+    width: 25px;
+    height: 25px;
+    padding: 1%;
+}
+.margim{
+    margin-bottom: 50px;
+}
+
+
+/*  sessão footer  */
+footer{
+    background: #486358;
+    padding: 20px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: #051e24;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+/*
+Estilos da página tipos.html
+*/
+
+/*
+Estilos da página infor.html
+*/

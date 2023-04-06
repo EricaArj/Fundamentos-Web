@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Tipos de Leopardos</title>
 </head>
 <body>
-    <div>
-        <ul>
+    <div >
+        <ul id="menu">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="tipos.html">Tipos</a></li>
         </ul>
-    <h1>Leopardo-das-neves</h1>
-        <h2>O misterioso felino quase invisível</h2>
+    <h1 class="center  margim">Leopardo-das-neves</h1>
+        <h2 class="center  margim">O misterioso felino quase invisível</h2>
 
-        <p>Os leopardos-das-neves são grandes felinos, conhecidos pelo seu belo pêlo prateado, branco e preto e olhos verdes.
+    <div class="container">
+
+        <div class="texto_principal margim">
+
+            <p class="center">Os leopardos-das-neves são grandes felinos, conhecidos pelo seu belo pêlo prateado, branco e preto e olhos verdes.
 
             Possuem membros curtos e atarracados para escalar e patas extras grandes que agem como sapatos de neve.
             
@@ -27,11 +32,16 @@
             Este carnívoro sobrevive de ovelhas azuis, marmotas, galos da neve e perdiz, assim como outros animais que consiga caçar no seu território.
             
             No mundo de hoje, estima-se que cerca de 4000-6000 destes gatos existam.</p>
-
-            <img src="assets/img/leopneve.jpg" alt="Leopardo-das-neves">
-
+            </div>
+       
+             <div>
+                <img class="img_pricipal tamanho lagura margim" src="assets/img/R (1).jpg" alt="Leopardo-das-neves">
+         </div>
+    </div>
+   
+            
+            <div class="center margim">
             <h2>Localização do Leopardo-das-neves</h2>
-
             <p>Ásia central </p>
             <p>Himalaia e no planalto do Tibete</p>
             <iframe 
@@ -44,31 +54,50 @@
             referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
 
-
-
-
-    
+            </div>
             <hr>
-            <h3>Deixe o o seu ccomentário:</h3>
 
-            <form>
-                <br>
-                <label for="nome">Nome:</label><br>
-                <input type="text" id="nome">
-                <br>
-                <br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email">
-                <br>
-                <br>
-                <label for="assunto">Assunto:</label><br>
-                <textarea nome="assunto" id="assunto" cols="60" rows="5"></textarea>
-                <br>
-                <br>
-                <button>Enviar</button>
-            </form>
-        </div>
+            <h3 class="center"> Deixe o o seu ccomentário: </h3> 
 
-        <button onclick="window.location.href = 'index.html';">Volta</button>
+            <div class="center margim">
+
+
+                <form>
+                    <br>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome">
+                    <br>
+                    <br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email">
+                    <br>
+                    <br>
+                    <label for="assunto">Assunto:</label><br>
+                    <textarea nome="assunto" id="assunto" cols="60" rows="5"></textarea>
+                    <br>
+                    <br>
+                    <button>Enviar</button>
+                </form>
+                
+
+
+            </div>
+            <footer>
+                <div>
+                <a href="https://br.linkedin.com" target="_blank">
+                    <img class="tm-social" src="assets/img/linkedin.png" alt="Logo linkedin">
+                </a>
+                <a href="https://github.com/login"  target="_blank">
+                    <img class="tm-social" src="assets/img/github.png" alt="Logo github">
+                </a>
+                    <a href="https://twitter.com/login"  target="_blank">
+                    <img class="tm-social" src="assets/img/twitter.png" alt="Logo twitter">
+                </a>
+                    <a href="https://www.twitch.tv"  target="_blank">
+                    <img class="tm-social" src="assets/img/twitch.png" alt="Logo twitch">
+                </a>
+                </div>
+                <span>Todos os direitos reservados ao criado por <a href="#">Erica Araújo</a> &copy</span>
+            </footer> 
 </body>
 </html>
